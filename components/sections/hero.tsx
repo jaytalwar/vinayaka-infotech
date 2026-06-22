@@ -23,7 +23,7 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <button className="px-6 py-3 rounded-xl bg-blue-600 text-white font-medium">
-            Explore Services
+            View Solutions
           </button>
 
           <button className="px-6 py-3 rounded-xl border font-medium">

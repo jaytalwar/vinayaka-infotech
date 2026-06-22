@@ -26,7 +26,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <Button>
-          Get Quote
+          Talk to an Expert
         </Button>
       </div>
     </header>
