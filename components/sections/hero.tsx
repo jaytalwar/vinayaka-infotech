@@ -9,7 +9,7 @@ export default function Hero() {
           Trusted Since 1995
         </p>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight">
+        <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold tracking-tight">
           Complete IT Infrastructure Solutions
           <br />
           for Modern Businesses.
