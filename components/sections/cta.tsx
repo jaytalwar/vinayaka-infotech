@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 
 export default function CTA() {
   return (
-    <section className="py-24 px-6">
-      <div className="max-w-5xl mx-auto rounded-3xl border p-12 text-center">
+    <section className="py-24 px-6 bg-black text-white">
+      <div className="max-w-5xl mx-auto rounded-3xl border border-white/10 bg-white/5 p-12 text-center backdrop-blur">
         <p className="text-blue-600 font-medium mb-4">
           Let&apos;s Work Together
         </p>
@@ -12,7 +12,7 @@ export default function CTA() {
           Ready to Upgrade Your IT Infrastructure?
         </h2>
 
-        <p className="mt-6 text-muted-foreground max-w-2xl mx-auto">
+        <p className="mt-6 text-gray-400 max-w-2xl mx-auto">
           Whether you need networking, CCTV, hardware procurement,
           enterprise systems, or IT consulting, our team is ready to help.
         </p>
@@ -22,9 +22,13 @@ export default function CTA() {
             Request Consultation
           </Button>
 
-          <Button variant="outline" size="lg">
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-white text-white hover:bg-white hover:text-black"
+            >
             Contact Us
-          </Button>
+        </Button>
         </div>
       </div>
     </section>
